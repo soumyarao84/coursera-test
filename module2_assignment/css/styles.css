@@ -1,0 +1,65 @@
+
+/*--------Base styles-------- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* -------- Responsive Designs -------- */
+.row{
+    width: 100%;
+}
+
+/* Large devices */
+@media (min-width: 992px) {	
+  .col-lg-4 {
+    width: 33.3%;
+    float: left;
+ }
+}
+
+/*Medium devices*/
+@media (min-width: 768px) and (max-width: 991px) {	
+  .col-md-6 {
+    width: 50%;
+    float: left;   
+ }  
+}
+
+/*--------Layout design -------- */
+h1 {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.row > div { 
+  /*margin: 3px;*/ /* This just spoils the responisiveness*/
+  border: 1px solid black;
+  background-color: gray;
+}
+
+section h3 {
+	border: 1px solid black;
+	position: relative;
+	float: right;
+	padding: 2px 5px 2px 5px;
+}
+
+p {
+  clear: both; /* p is after h3. If we do not clear both, p will merge with h3 since we used float there */
+  padding: 5px;
+}
+
+#paris {
+	background: pink;
+}
+
+#london {
+	background: red;
+}
+
+#venice {
+	background: yellow;
+}
+

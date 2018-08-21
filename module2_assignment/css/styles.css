@@ -8,12 +8,13 @@
 /* -------- Responsive Designs -------- */
 .row{
     width: 100%;
+    align-content: center;
 }
 
 /* Large devices */
 @media (min-width: 992px) {	
   .col-lg-4 {
-    width: 33.3%;
+    width: 32%;
     float: left;
  }
 }
@@ -21,7 +22,12 @@
 /*Medium devices*/
 @media (min-width: 768px) and (max-width: 991px) {	
   .col-md-6 {
-    width: 50%;
+    width: 48%;
+    float: left;   
+ }  
+
+   .col-md-12 {
+    width: 100%;
     float: left;   
  }  
 }
@@ -34,7 +40,7 @@ h1 {
 }
 
 .row > div { 
-  /*margin: 3px;*/ /* This just spoils the responisiveness*/
+  margin: 3px; /* This just spoils the responisiveness*/
   border: 1px solid black;
   background-color: gray;
 }

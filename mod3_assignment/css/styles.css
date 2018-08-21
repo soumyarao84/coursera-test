@@ -4,3 +4,45 @@ body {
 	background-color: #61122f;
 	font-family: 'Oxygen', sans-serif;
 }
+
+#header-nav{
+	background-color: #f6b319;
+	border-radius: 0;
+	border:0;
+}
+
+.navbar-brand h1{ /*name */
+	margin-top:0;
+	margin-bottom: 0;
+	font-weight: bold;
+	vertical-align: center;
+	font-size: 1.5em;
+}
+
+#my-nav-list {
+	margin-top: 10px;
+	background: #951C49;
+}
+
+#my-nav-list li{
+	border:1px solid #fff;
+	text-align: center;
+	color: #ccc;
+}
+
+/* Main content */
+.my-content-tile {
+	margin: 10px;
+	border: 2px solid #ccc;
+	background:#951C49 ;
+}
+
+.my-content-tile h3{
+   text-align: center;
+   font-weight: bold;
+}
+
+.mount-description p {
+	padding: 20px;
+	font-size: 1em;
+}
